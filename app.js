@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 
+
 // 환경변수에서 포트 가져오기 (기본값: 3000)
 const PORT = process.env.PORT || 3000;
 const APP_NAME = process.env.APP_NAME || 'My Web App';
